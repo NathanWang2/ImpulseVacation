@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="impulsevacation">
+  <head>
+    <meta charset="utf-8">
+    <title>Impulse Vacation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <link href="css/custom.css" rel="stylesheet" />
+  </head>
+  <body>
+    <impulsevacation-nav></impulsevacation-nav>
+      <div class="container" ng-view></div>
+
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.min.js"></script>
+    <script src="pages/app.js"></script>
+    <script src="pages/navigation-directive/navigation-directive.js"></script>
+  </body>
+</html>
